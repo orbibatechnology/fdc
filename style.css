@@ -1,0 +1,122 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(ressource/0_EBXqB5wJTWFeaT04.gif) no-repeat;
+    background-size:cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  }
+  
+  #chatbox {
+    border: 3px double #135f72;
+    border-radius: 7px;
+    height: 400px;
+    width: 500px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    padding: 10px;
+    background: #003953;
+  }
+  
+  #chatbox p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  #chat-form {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #chat-form input[type=text] {
+    width: 60%;
+    height: 30px;
+    border: 3px  groove #135f72;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #003953;
+    color: white;
+  }
+  
+  #chat-form input[type=submit] {
+    width: 20%;
+    height: 30px;
+    border: 3px  groove #135f72;
+    border-radius: 3px;
+    background-color: #010f14;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #chat-form input[type=submit]:hover {
+    background-color: #5f6368;
+  }
+  
+  .chat-header {
+    background-color: #135f72;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  h2 {
+    border-width: 20px;
+    border:  5px double #135f72;
+    text-indent:1cm;
+      background: #082a41;
+      width: 500px;
+    text-align: center;
+    }
+     h1 {
+    border-width: 20px;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    text-indent:1cm;
+      background: rgb(0, 0, 0);
+      width: 500px;
+    text-align: center;
+    }
+    a{border-width:6px;
+        border-color: rgb(116, 114, 114);
+        border-style:groove;
+        background: rgb(255, 255, 255);
+      }
+      table{ 
+        background-color: #082a41;
+        border-color: #135f72;
+        border-style: groove;
+        border-width: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+    }
+    label{  border-color: rgb(0, 0, 0);
+        border-style:groove;
+      }
+      p{background-color: rgba(148, 148, 148, 0.342);
+        border-color: rgb(255, 255, 255);
+        border-style:none;
+      } 
+       h1 {
+       	font-weight: bold;
+       	text-decoration: underline;
+       }
+       h2 {
+       	font-weight: bold;
+       	text-decoration: underline;
+       }
+       h3 {
+       	font-weight: bold;
+       	text-decoration: underline;
+       }
+        
+       address{
+       	font-weight: bold;
+       	text-decoration: underline;
+       }

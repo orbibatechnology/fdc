@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat gjt</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<center>
+	<header>
+	<nav>
+	   <h1 style="color: beige" > MEZI.CHAT </h1>
+	   <p style="float: right">
+		<a href="accueil lht.html"> Accuiel </a> |
+		<a href="iscription.html"> incription </a> |
+		<a href="contact nous.html"> Contacte </a> |
+		<a href="message.html"> Message </a> |
+	   </p>
+	</nav>
+ </header>
+ </center><br><br><br><br>
+<body>
+  <form id="chat-form">
+    <label for="username" style="color: rgb(255, 255, 255);">Nom d'utilisateur:</label><br>
+    <input type="text" id="username" name="username" placeholder="Veillez entrer votre nom d'utilisateur"><br>
+    <label for="message" style="color: rgb(255, 255, 255);">Message:</label><br>
+    <input type="text" id="message" name="message" placeholder="Veillez saisir un message"><br><br>
+    <input type="submit" value="Envoyer">
+  </form> 
+  <div id="chatbox">
+  </div>
+  <!-- script JavaScript -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
